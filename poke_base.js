@@ -8,13 +8,13 @@ const PokeBase = () => {
     {name:'Sushi Rice', image:'sushirice.jpg'}
   ];
 
-  let base_list = basis.map(base => (
+  const base_list = basis.map(base => (
     <div className="base_card" key={base.name}>
       <img src={require(`../assets/images/accessory_image/base/${base.image}`)} alt={base.name} />
       <p>{base.name}</p>
     </div>
-    )
-  )
+  ))
+  
   return (
     <div className="poke_base">
       <div className="base">
