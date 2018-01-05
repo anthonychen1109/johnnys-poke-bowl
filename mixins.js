@@ -28,7 +28,7 @@ const Mixins = () => {
   return (
     <div className="poke_mixins">
       <div className="mixins">
-        <p>3. Add <strong>MIX-INs</strong></p>
+        <p>3. Add <strong>MIX-INS</strong></p>
       </div>
       <div className="mixins_list">
         {mixins_list}
