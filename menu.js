@@ -21,9 +21,13 @@ const Menu = () => {
   ))
 
   return (
-    <div className="poke_menus">
+    <div id="menu" className="poke_menus">
       <div className="menus">
         <h1><strong>OUR MENU</strong></h1>
+        <div className="menu-img">
+          <img src={require('../assets/images/menu-1.jpg')} alt="menu-1"/>
+          <img src={require('../assets/images/menu-2.jpg')} alt="menu-2"/>
+        </div>
         <h1>Signature Poke Bowls</h1>
       </div>
       <div className="menus_list">
