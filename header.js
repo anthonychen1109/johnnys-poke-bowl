@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <div className="header container">
+    <div className="header">
 
-      <nav className="navbar navbar-toggleable-md navbar-light bg-faded">
+      <nav className="navbar navbar-toggleable-md navbar-light bg-faded container">
         <div className="logo">
-          <img src={require('../assets/images/logo.png')}/>
+          <img src={require('../assets/images/logo.png')} alt="logo"/>
         </div>
         <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
@@ -31,7 +31,7 @@ const Header = () => {
         </div>
       </nav>
       <div className="header-img">
-        <img src={require('../assets/images/2.jpg')}/>
+        <img src={require('../assets/images/2.jpg')} alt="header logo"/>
       </div>
 
     </div>

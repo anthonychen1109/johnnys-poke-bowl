@@ -12,23 +12,25 @@ import Crunch from './crunch';
 
 const Body = () => {
   return (
-    <div className="body container">
+    <div className="body">
       <Header />
-      <Menu />
-      <hr />
-      <h1>Build Your Own Poke</h1>
-      <PokeBase />
-      <hr />
-      <Proteins />
-      <hr />
-      <Mixins />
-      <hr />
-      <Flavors />
-      <hr />
-      <Toppings />
-      <hr />
-      <Crunch />
-      <hr />
+      <div className="container">
+        <Menu />
+        <hr />
+        <h1>Build Your Own Poke</h1>
+        <PokeBase />
+        <hr />
+        <Proteins />
+        <hr />
+        <Mixins />
+        <hr />
+        <Flavors />
+        <hr />
+        <Toppings />
+        <hr />
+        <Crunch />
+        <hr />
+      </div>
     </div>
   )
 }
