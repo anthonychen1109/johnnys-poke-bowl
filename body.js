@@ -1,6 +1,7 @@
 import React from 'react';
 
 //COMPONENT
+import Header from './header';
 import Menu from './menu';
 import PokeBase from './poke_base';
 import Proteins from './proteins';
@@ -12,6 +13,7 @@ import Crunch from './crunch';
 const Body = () => {
   return (
     <div className="body container">
+      <Header />
       <Menu />
       <hr />
       <h1>Build Your Own Poke</h1>
