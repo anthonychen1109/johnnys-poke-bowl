@@ -20,8 +20,8 @@ const Footer = () => {
       <div className="hours">
         <p id="location"><strong><em>Locations</em></strong></p>
         <br />
-        <p>939 Beards Hill Rd Suite #C</p>
-        <p>Aberdeen MD 21001</p>
+        <p>939 Beards Rill Rd Suite #C</p>
+        <p>Aberdeen MD 21903</p>
         <br />
         <p id="hours"><strong><em>Hours:</em></strong></p>
         <br />
